@@ -1,8 +1,8 @@
-/*
+                             /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package calculadoraProductos;
+package CcalculadoraProductos;
 
 import java.util.Scanner;
 /**
@@ -23,7 +23,7 @@ public class Main {
         double precio = sc.nextDouble();
         
         //Solicitar cantidad
-        System.out.println("Imgrese la cantidad: ");
+        System.out.println("Ingrese la cantidad: ");
         int cantidad = sc.nextInt();
         
         // Crear objeto de la clase producto
@@ -35,7 +35,7 @@ public class Main {
         
         System.out.println("Producto: " + producto1.getNombre());
         
-        System.out.println("Precio: $ " + producto1.getPrecio(precio));
+        System.out.println("Precio: $ " + producto1.getPrecio());
         
         System.out.println("Cantidad : " + producto1.getCantidad());
         
