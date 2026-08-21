@@ -32,7 +32,7 @@ public class Producto {
     }
     
     //Getters y setters Precio
-    public double getPrecio(double precio){
+    public double getPrecio(){
         return precio;
     }
     
